@@ -1,8 +1,7 @@
 -- @ description Fade Shape Cycle (MIDI CC relative-mousewheel)
 -- @author Grayson Solis
 -- @version 1.0
--- @about 
---		Use mousewheel over a fade curve, envelope segment, automation item segment, or MIDI CC lane to cycle its shape. 
+-- @about Use mousewheel over a fade curve, envelope segment, automation item segment, or MIDI CC lane to cycle its shape. 
 --		Works mousing up or down
 
 local function get_wheel_direction()

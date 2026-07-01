@@ -1,8 +1,7 @@
 -- @description Toggle Group
 -- @author Grayson Solis
 -- @version 1.0
--- @about 
---	If you select
+-- @about If you select:
 --	- All ungrouped items:it groups them together
 --	- All grouped items (same group or not): it ungroups them
 --	- A mix of grouped and ungrouped items): it adds the ungrouped ones to the existing group
