@@ -2,12 +2,10 @@
 -- @author Grayson Solis
 -- @version 1.0
 -- @about Changes how tracks are added: 
-	--[[
-	- Nothing selected - adds at the end.
-	- Normal track selected - adds right after it.
-	- Expanded folder selected - adds inside it (first child).
-	- Collapsed folder selected - adds after the whole folder.
-	]]
+--	- Nothing selected - adds at the end.
+--	- Normal track selected - adds right after it.
+--	- Expanded folder selected - adds inside it (first child).
+--	- Collapsed folder selected - adds after the whole folder.
 
 local function main()
   local sel_track = reaper.GetSelectedTrack(0, 0)

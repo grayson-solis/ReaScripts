@@ -2,13 +2,11 @@
 -- @author Grayson Solis
 -- @version 1.0
 -- @about 
-
--- MODIFIED ARCHIE SCRIPT MOST OF THIS IS NOT MY OWN WORK USE AT YOUR OWN DISCRETION  - Grayson Solis
--- Selects a track
--- Creates a subproject in ProjectPath/Media (named TrackName) 
--- Creates a new Media folder in ProjectPath/TrackName for the new subproject's Media
-
--- Prevents subproject's Media files getting mixed in with the parent project (or other subprojects') media files. Better organization too
+	-- MODIFIED ARCHIE SCRIPT MOST OF THIS IS NOT MY OWN WORK USE AT YOUR OWN DISCRETION  - Grayson Solis
+	-- Selects a track
+	-- Creates a subproject in ProjectPath/Media (named TrackName) 
+	-- Creates a new Media folder in ProjectPath/TrackName for the new subproject's Media
+	-- Prevents subproject's Media files getting mixed in with the parent project (or other subprojects') media files. Better organization too
 
 local USER_INPUTS = true
 local AUTO_NAME   = true

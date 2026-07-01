@@ -1,9 +1,8 @@
 -- @description Split MIDI Chord Voices to Separate Tracks
 -- @author Grayson Solis
 -- @version 1.0
--- @about 
-	-- Run on selected track - duplicates track for each voice level
-	-- Topmost notes stay in current track, each voice goes to duplicated track below
+-- @about Run on selected track - duplicates track for each voice level
+-- 		Topmost notes stay in current track, each voice goes to duplicated track below
 
 function main()
     local track = reaper.GetSelectedTrack(0, 0)
