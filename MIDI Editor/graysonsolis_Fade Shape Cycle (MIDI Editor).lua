@@ -1,6 +1,6 @@
 -- @description Fade Shape Cycle (MIDI Editor)
 -- @author Grayson Solis
--- @version 1.0
+-- @version 1.0 
 -- @about Mousewheel over a fade curve, envelope segment, automation item segment, or MIDI CC lane to cycle its shape
 
 local function get_wheel_direction()
