@@ -1,3 +1,8 @@
+-- @description Invert Selected Chord Up
+-- @author Grayson Solis
+-- @version 1.0
+-- @about Inverts selected chords upward by moving the bottommost note of each chord to the highest available pitch of the same note class, while intelligently handling voice leading / held notes
+
 local TOLERANCE = 30
 local me = reaper.MIDIEditor_GetActive()
 if not me then return end
